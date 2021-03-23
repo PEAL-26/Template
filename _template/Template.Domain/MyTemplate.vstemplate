@@ -1,0 +1,44 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Template.Domain</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Template.Domain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Template.Domain.csproj" File="Template.Domain.csproj" ReplaceParameters="true">
+      <Folder Name="Entidades" TargetFolderName="Entidades">
+        <Folder Name="Exemplo" TargetFolderName="Exemplo">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Exemplo.cs">Exemplo.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Enums" TargetFolderName="Enums" />
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <Folder Name="Genericas" TargetFolderName="Genericas">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IGenericoRepositorio.cs">IGenericoRepositorio.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IGenericoServico.cs">IGenericoServico.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Repositorios" TargetFolderName="Repositorios">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IExemploRepoitorio.cs">IExemploRepoitorio.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Servicos" TargetFolderName="Servicos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IExemploServico.cs">IExemploServico.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Servicos" TargetFolderName="Servicos">
+        <Folder Name="Exempolos" TargetFolderName="Exempolos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ExemploServico.cs">ExemploServico.cs</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

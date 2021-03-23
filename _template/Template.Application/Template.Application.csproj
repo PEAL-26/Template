@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\$safeprojectname$.Application.Shared\$safeprojectname$.Application.Shared.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Domain\$safeprojectname$.Domain.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Infra.Data\$safeprojectname$.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

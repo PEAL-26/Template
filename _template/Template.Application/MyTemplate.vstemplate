@@ -1,0 +1,42 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Template.Application</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Template.Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Template.Application.csproj" File="Template.Application.csproj" ReplaceParameters="true">
+      <Folder Name="Aplicacoes" TargetFolderName="Aplicacoes">
+        <Folder Name="Exemplos" TargetFolderName="Exemplos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ExemploApp.cs">ExemploApp.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="AutoMapper" TargetFolderName="AutoMapper">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AutoMapperConfiguracao.cs">AutoMapperConfiguracao.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DominioParaViewModelMapeamentoProfile.cs">DominioParaViewModelMapeamentoProfile.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelParaDominioMapeamentoProfile.cs">ViewModelParaDominioMapeamentoProfile.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <Folder Name="Exemplos" TargetFolderName="Exemplos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IExemploApp.cs">IExemploApp.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IGenericaApp.cs">IGenericaApp.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <Folder Name="Exemplos" TargetFolderName="Exemplos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ExemploViewModel.cs">ExemploViewModel.cs</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
