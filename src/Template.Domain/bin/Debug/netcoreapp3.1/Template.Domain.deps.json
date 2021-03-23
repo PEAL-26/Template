@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Template.Domain/1.0.0": {
+        "dependencies": {
+          "Template.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Template.Domain.dll": {}
+        }
+      },
+      "Flunt/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Template.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.1"
+        },
+        "runtime": {
+          "Template.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Template.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flunt/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MVs1rH6IG6N5cQZ6CFp7wijXNib3J1ASqCobUCO9bT9aE/BpXGuARpNfMtsLMvj1eXoDws8PJF0hB8gSwcvoyg==",
+      "path": "flunt/2.0.1",
+      "hashPath": "flunt.2.0.1.nupkg.sha512"
+    },
+    "Template.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

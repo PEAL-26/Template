@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\bin\Debug\netcoreapp3.1\Template.Application.Shared.deps.json
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\bin\Debug\netcoreapp3.1\Template.Application.Shared.dll
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\bin\Debug\netcoreapp3.1\Template.Application.Shared.pdb
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.dll
+C:\#PEAL\Dev\PEAL\Template\src\Template.Application.Shared\obj\Debug\netcoreapp3.1\Template.Application.Shared.pdb

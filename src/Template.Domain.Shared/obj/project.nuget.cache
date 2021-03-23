@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t1ItNTSVpQ9STypVkuXY8X7Z5A/RAcXzcXnAO3q8XZlNJUaayJ/JWy1bJQ4u32rEHMvrD5XUsjhU9y3wJRGFJQ==",
+  "success": true,
+  "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\Template\\src\\Template.Domain.Shared\\Template.Domain.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\flunt\\2.0.1\\flunt.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

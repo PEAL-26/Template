@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\bin\Debug\netcoreapp3.1\Template.CrossCutting.deps.json
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\bin\Debug\netcoreapp3.1\Template.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\bin\Debug\netcoreapp3.1\Template.CrossCutting.pdb
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\Template\src\Template.CrossCutting\obj\Debug\netcoreapp3.1\Template.CrossCutting.pdb
