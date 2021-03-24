@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Template.CrossCutting.IoC</Name>
+    <Name>Template.Infra.CrossCutting.Tests</Name>
     <Description>&lt;Nenhuma descrição disponível&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Template.CrossCutting.IoC</DefaultName>
+    <DefaultName>Template.Infra.CrossCutting.Tests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -15,8 +15,6 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Template.CrossCutting.IoC.csproj" File="Template.CrossCutting.IoC.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="NativeInjectorMapping.cs">NativeInjectorMapping.cs</ProjectItem>
-    </Project>
+    <Project TargetFileName="Template.Infra.CrossCutting.Tests.csproj" File="Template.Infra.CrossCutting.Tests.csproj" ReplaceParameters="true" />
   </TemplateContent>
 </VSTemplate>

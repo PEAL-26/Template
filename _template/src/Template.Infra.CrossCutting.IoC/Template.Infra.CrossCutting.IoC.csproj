@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.Application\$safeprojectname$.Application.csproj" />
-    <ProjectReference Include="..\$safeprojectname$.Infra.Data\$safeprojectname$.Infra.Data.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Application.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Infra.Data.csproj" />
   </ItemGroup>
 </Project>

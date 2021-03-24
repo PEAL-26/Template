@@ -26,8 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.Domain.Shared\$safeprojectname$.Domain.Shared.csproj" />
-    <ProjectReference Include="..\$safeprojectname$.Domain\$safeprojectname$.Domain.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Domain.Shared.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Domain.csproj" />
   </ItemGroup>
   
   <ItemGroup>

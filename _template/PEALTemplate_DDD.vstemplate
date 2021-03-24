@@ -1,0 +1,85 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+    <TemplateData>
+        <Name>PEALTemplate</Name>
+        <Description>Um  template multi-project aplicando DDD</Description>
+        <Icon>__TemplateIcon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+		
+            <SolutionFolder Name="src">
+				<SolutionFolder Name="01 - Apresentation">
+					<ProjectTemplateLink ProjectName="$projectname$.Apresentation.Web">
+						src\Template.Apresentation.Web\Template.Apresentation.Web.vstemplate
+					</ProjectTemplateLink>
+				</SolutionFolder>
+				<SolutionFolder Name="02 - Application">
+					<ProjectTemplateLink ProjectName="$projectname$.Application">
+						src\Template.Application\Template.Application.vstemplate
+					</ProjectTemplateLink>
+					<ProjectTemplateLink ProjectName="$projectname$.Application.Shared">
+						src\Template.Application.Shared\Template.Application.Shared.vstemplate
+					</ProjectTemplateLink>
+				</SolutionFolder>
+				<SolutionFolder Name="03 - Domain">
+					<ProjectTemplateLink ProjectName="$projectname$.Domain">
+						src\Template.Domain\Template.Domain.vstemplate
+					</ProjectTemplateLink>
+					<ProjectTemplateLink ProjectName="$projectname$.Domain.Shared">
+						src\Template.Domain.Shared\Template.Domain.Shared.vstemplate
+					</ProjectTemplateLink>
+				</SolutionFolder>
+				<SolutionFolder Name="04 - Infra">
+					<SolutionFolder Name="4.1 - Data">
+						<ProjectTemplateLink ProjectName="$projectname$.Infra.Data">
+							src\Template.Infra.Data\Template.Infra.Data.vstemplate
+						</ProjectTemplateLink>
+					</SolutionFolder>
+					<SolutionFolder Name="4.2 - CrossCutting">
+						<ProjectTemplateLink ProjectName="$projectname$.Infra.CrossCutting">
+							src\Template.Infra.CrossCutting\Template.Infra.CrossCutting.vstemplate
+						</ProjectTemplateLink>
+						<ProjectTemplateLink ProjectName="$projectname$.Infra.CrossCutting.IoC">
+							src\Template.Infra.CrossCutting.IoC\Template.Infra.CrossCutting.IoC.vstemplate
+						</ProjectTemplateLink>
+					</SolutionFolder>
+				</SolutionFolder>
+            </SolutionFolder>
+			
+            <SolutionFolder Name="tests">
+				<SolutionFolder Name="01 - Apresentation.Tests">
+				</SolutionFolder>
+				<SolutionFolder Name="02 - Application.Tests">
+					<ProjectTemplateLink ProjectName="$projectname$.Application.Tests">
+						tests\Template.Application.Tests\Template.Application.Tests.vstemplate
+					</ProjectTemplateLink>
+					<ProjectTemplateLink ProjectName="$projectname$.Application.Shared.Tests">
+						tests\Template.Application.Shared.Tests\Template.Application.Shared.Tests.vstemplate
+					</ProjectTemplateLink>
+				</SolutionFolder>
+				<SolutionFolder Name="03 - Domain.Tests">
+					<ProjectTemplateLink ProjectName="$projectname$.Domain.Tests">
+						tests\Template.Domain.Tests\Template.Domain.Tests.vstemplate
+					</ProjectTemplateLink>
+					<ProjectTemplateLink ProjectName="$projectname$.Domain.Shared.Tests">
+						tests\Template.Domain.Shared.Tests\Template.Domain.Shared.Tests.vstemplate
+					</ProjectTemplateLink>
+				</SolutionFolder>
+				<SolutionFolder Name="04 - Infra.Tests">
+					<SolutionFolder Name="4.1 - Data">
+						<ProjectTemplateLink ProjectName="$projectname$.Infra.Data.Tests">
+							tests\Template.Infra.Data.Tests\Template.Infra.Data.Tests.vstemplate
+						</ProjectTemplateLink>
+					</SolutionFolder>
+					<SolutionFolder Name="4.2 - CrossCutting">
+						<ProjectTemplateLink ProjectName="$projectname$.Infra.CrossCutting.Tests">
+							tests\Template.Infra.CrossCutting.Tests\Template.Infra.CrossCutting.Tests.vstemplate
+						</ProjectTemplateLink>
+					</SolutionFolder>
+				</SolutionFolder>
+            </SolutionFolder>
+			
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

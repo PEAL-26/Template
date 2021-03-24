@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.Application.Shared\$safeprojectname$.Application.Shared.csproj" />
-    <ProjectReference Include="..\$safeprojectname$.Domain\$safeprojectname$.Domain.csproj" />
-    <ProjectReference Include="..\$safeprojectname$.Infra.Data\$safeprojectname$.Infra.Data.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Application.Shared.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Domain.csproj" />
+    <ProjectReference Include="..\$safeprojectname$.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
