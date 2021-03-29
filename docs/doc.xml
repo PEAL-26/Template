@@ -1,0 +1,15 @@
+Se você deseja que o modelo de multiprojetos apareça apenas na nova caixa de diálogo do projeto e não nos projetos individuais que ele contém, marque os modelos internos como oculto. Por exemplo:
+
+<VSTemplate Type="Project" ... >
+    <TemplateData>
+        ...
+        <Hidden>true</Hidden>
+    </TemplateData>
+    ...
+</VSTemplate>
+
+Se você estiver usando parâmetros de modelo e quiser se referir a variáveis do modelo pai, prefixe o nome do parâmetro com ext_. Por exemplo, $ext_safeprojectname$. Além disso, defina o atributo CopyParameters do elemento ProjectTemplateLink como true.
+XML Copiar 
+<ProjectTemplateLink ProjectName="MyProject" CopyParameters="true">...</ProjectTemplateLink>
+
+10.	Copie o arquivo . zip para o diretório de modelo de projeto do usuário. Por padrão, esse diretório é o %USERPROFILE%\Documents\Visual Studio <version> \Templates\ProjectTemplates.

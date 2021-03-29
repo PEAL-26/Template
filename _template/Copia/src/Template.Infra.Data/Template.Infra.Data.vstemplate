@@ -1,0 +1,46 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Template.Infra.Data</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Template.Infra.Data</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Template.Infra.Data.csproj" File="Template.Infra.Data.csproj" ReplaceParameters="true">
+      <Folder Name="Configuracoes" TargetFolderName="Configuracoes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConfiguracaoDatabase.cs">ConfiguracaoDatabase.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConfiguracaoMapeamento.cs">ConfiguracaoMapeamento.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ConfiguracaoSeeds.cs">ConfiguracaoSeeds.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ContextoDatabase.cs">ContextoDatabase.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IMapeamento.cs">IMapeamento.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IUnitOfWork.cs">IUnitOfWork.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Mapeamentos" TargetFolderName="Mapeamentos" />
+      <Folder Name="Repositorios" TargetFolderName="Repositorios">
+        <Folder Name="Exemplos" TargetFolderName="Exemplos">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ExemploRepositorio.cs">ExemploRepositorio.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GenericoRepositorio.cs">GenericoRepositorio.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Seeds" TargetFolderName="Seeds">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExemploSeed.cs">ExemploSeed.cs</ProjectItem>
+      </Folder>
+      <Folder Name="UnitOfWork" TargetFolderName="UnitOfWork">
+        <ProjectItem ReplaceParameters="true" TargetFileName="UnitOfWork.cs">UnitOfWork.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
